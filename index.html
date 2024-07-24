@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head> 
-    <title> lucia plus</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=devid-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraBooks</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
-
     <body>
-        <section class="container principal">
-            <h1>com o combo+, vocễ pode aproveitar a Aluara+ e o Alura lingua por um preço único.</h1>
-        </section>
-    
+        <header class="cabeçalho">
+            <div class="container"> 
+                <input type="checkbox" id="menu" class="container_botão"> 
+                <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu_titulo">categoria</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Front-End</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Isfraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Design & UX</a>
+                    </li>   
+                </ul>
+                <img src="img/Logo.png" alt="Logo da LuciaBooks" class="container__imagem">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
     </body>
-
 </html>
