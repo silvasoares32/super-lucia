@@ -1,44 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AluraBooks</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="cabeçalho">
-            <div class="container"> 
-                <input type="checkbox" id="menu" class="container_botão"> 
-                <label for="menu">
-                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-                </label>
-                <ul class="lista-menu">
-                    <li class="lista-menu_titulo">categoria</li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu_link">Programação</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu_link">Front-End</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu_link">Isfraestrutura</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu_link">Business</a>
-                    </li>
-                    <li class="lista-menu__item">
-                        <a href="#" class="lista-menu_link">Design & UX</a>
-                    </li>   
-                </ul>
-                <img src="img/Logo.png" alt="Logo da LuciaBooks" class="container__imagem">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>flashcard</title>
+</head>
+<body>
+   <main>
+        <section id="container">
+         <article class="cartão">
+            <div class="cartao__conteudo">
+              <h3>matematica</h3>
+                <div class="cartao__conteudo__pergunta">
+                <p> Quantos segundos há em um dia?</p>
+               </div>
+               <div class="cartao__conteudo__pergunta">
+                  <p>R= 86400 segundos</p>
+                 </div>
             </div>
-            <div class="container">
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
-            </div>
-        </header>
-    </body>
+          </article>
+          <article class="cartão">
+            <div class="cartaõ__conteudo">
+                <h3>matematica</h3>
+                    <div class="cartao__conteudo__pergunta">
+                    <P>Quantos minutos tem uma hora?</P>
+                    </div>
+                    <div class="cartao__conteudo__pergunta">
+                        <P>R= 60 minutos</P>
+                    </div>
+             </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>projeto desenvolvido pelo 2A, sem fins lucrativos</p>
+    </footer>
+</body>
 </html>
